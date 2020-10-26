@@ -3,7 +3,7 @@
 
 Check out the porject [here](https://myschedule1457.herokuapp.com/)!
  
-This is a working schedule tracker application currently being used by a local resturaunt. In the app, users are able to view the schedule, make time off requests, and if they are verified manager's, they can update the schedule, add and delete employees, and view entire employee directory
+This is a working schedule tracker application created for a local Jimmy Johns resturaunt. In the app, users are able to view the schedule, make time off requests, and if they are verified manager's, they can update the schedule, add and delete employees, and view entire employee directory. This application is used as a demonstration and is not being used by a client. 
 
 ## Table of Contents
 * [License](#license)

@@ -83,8 +83,8 @@ export default function Login(props) {
 
             <div id="login-info-div">
                 <h3>Use this login info to log in as a manager (This app was designed for demonstration only)</h3>
-                <p>Username: </p>
-                <p>Password: </p>
+                <p>Username: user1</p>
+                <p>Password: password</p>
             </div>
         </div>
     )
