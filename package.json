@@ -1,0 +1,40 @@
+{
+  "name": "scheduletracker",
+  "version": "1.0.0",
+  "description": "A place where a manager can add and remove employees, create a weekly schedule from existing employees and where employees can view the schedule and make time off requests or even contact fellow employees",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.3.16",
+    "passport": "^0.4.1",
+    "passport-local-mongoose": "^6.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baspeirs/ScheduleTracker.git"
+  },
+  "author": "Bryce Speirs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baspeirs/ScheduleTracker/issues"
+  },
+  "homepage": "https://github.com/baspeirs/ScheduleTracker#readme"
+}
