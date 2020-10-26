@@ -47,13 +47,13 @@ export default function Login(props) {
     };
 
     // ===== functions for seeding database after deployment ===== 
-    const userSeed = () => {
-        API.seedDefaultUser()
-    };
+    // const userSeed = () => {
+    //     API.seedDefaultUser()
+    // };
 
-    const scheduleSeed = () => {
-        API.seedDefaultSchedule()
-    };
+    // const scheduleSeed = () => {
+    //     API.seedDefaultSchedule()
+    // };
 
     return (
         <div className="container">
@@ -76,15 +76,15 @@ export default function Login(props) {
                 <button type="submit" className="btn btn-dark" onClick={login}>Submit</button>
             </form>
             {/* Buttons to call seed functions */}
-            <div>
+            {/* <div>
                 <button onClick={userSeed}>Seed the default user</button>
                 <button onClick={scheduleSeed}>Seed the default schedule</button>
-            </div>
+            </div> */}
 
             <div id="login-info-div">
                 <h3>Use this login info to log in as a manager (This app was designed for demonstration only)</h3>
                 <p>Username: user1</p>
-                <p>Password: password</p>
+                <p>Password: password1</p>
             </div>
         </div>
     )
