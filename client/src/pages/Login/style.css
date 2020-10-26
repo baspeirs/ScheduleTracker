@@ -1,0 +1,21 @@
+#logo {
+    width: 100px;
+    height: auto;
+    margin-left: 15px
+}
+
+#login-header {
+    margin-bottom: 15px;
+}
+
+#login-header-col {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#MySchedule {
+    font-size: 60px;
+}
